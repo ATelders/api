@@ -1,1 +1,4 @@
-_*
+__pycache__
+__init__.py
+/env
+src/config.py
