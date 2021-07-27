@@ -1,8 +1,8 @@
 import sys
 sys.path.insert(0, "/home/apprenant/simplon_projects/api")
-from src.schemas import UserInDB, TokenData, User
-from src.config import SECRET_KEY, ALGORITHM
-from src.database import fake_users_db
+from app.src.schemas import UserInDB, TokenData, User
+from app.src.config import SECRET_KEY, ALGORITHM
+from app.src.database import fake_users_db
 from passlib.context import CryptContext
 from typing import Optional
 from fastapi import Depends, HTTPException, Security, status
